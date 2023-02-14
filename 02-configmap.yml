@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demoapp-html
+  namespace: demoapp
+data:
+  index.html: |
+    <html>
+      <head>
+        <title>Demo App</title>
+      </head>
+      <body>
+        <h1>Welcome to the Demo App</h1>
+        <p>This is a testing page.</p>
+      </body>
+    </html>
